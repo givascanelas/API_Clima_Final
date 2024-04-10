@@ -1,6 +1,5 @@
 # Senai World Weather.
 
-Este é um projeto desenvolvido para as aulas do Senai, utilizando a API do OpenWeatherMap para obter informações meteorológicas.
 Este projeto consiste em uma consulta de dados meteorológicos utilizando a API "OpenWeatherMap".
 
 ### Requisitos:
