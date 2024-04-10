@@ -37,8 +37,6 @@ Para começar a usar a API, siga os passos abaixo:
 
 * O "app.get" faz requisições na API baseada na cidade em que o usuário solicita.
 
-No script temos duas funções com addEventListener para que possam ser utilizados o botão de pesquisa e a tecla enter para que seja ativado a função que procura os dados na API.  Dentro do try temos a resposta da API que por metódo de if e else if define a mudança do símbolo do clima, outro if que define o fundo baseado na condição climática e um if que se consegue acessar os dados da API cria um innerHtml com as respostas da API, imagens e fundo.  Por fim temos a tratação dos erros com metódo catch.
-
 ### Arquivo "app.js":
 
 Neste arquivo, existem duas funções com "addEventListener", que é necessária para que o botão de pesquisa e a tecla Enter sejam utilizadas no campo de busca; Dentro do campo `try`, por método `if` & `else if`, há a resposta da API que define a mudança do símbolo do clima; O fundo baseado na condição climática; E um `if` que se conseguir acessar os dados da API, cria um `innerHtml` com as respostas da mesma, imagens e os fundos; Por fim, o erros são tratados com o uso do `catch`.
