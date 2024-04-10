@@ -2,7 +2,7 @@
 
 Este projeto consiste em uma consulta de dados meteorológicos utilizando a API "OpenWeatherMap".
 
-### Requisitos:
+## Requisitos:
 
 Para utilizar os dados climáticos, é necessário a instalação dos principais requisitos de sistema. Portanto, abra o console de comandos:
 
@@ -14,7 +14,7 @@ Para utilizar os dados climáticos, é necessário a instalação dos principais
 
 4. Por último, para a instalação do módulo "CORS", utilize o comando `npm i cors`.
 
-### Configuração:
+## Configuração:
 
 Para começar a usar a API, siga os seguintes passos:
 
