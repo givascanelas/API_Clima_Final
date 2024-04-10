@@ -9,7 +9,7 @@ Para utilizar os dados climáticos, é necessário a instalação dos principais
 
 1. Primeiro, para a instalação principal, utilize o comando `npm install`;
 
-2. Para a instalação do framework "Express", utilize o comando `npm i express`;
+2. Para a instalação do framework 'Express', utilize o comando `npm i express`;
 
 3. Para a instalação do módulo "Axios", utilize o comando `npm i axios`;
 
