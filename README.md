@@ -25,7 +25,7 @@ Para começar a usar a API, siga os passos abaixo:
    ```json
    {
      "apikey": "SUA API"
-   } ;
+   }
 
 3. Crie uma conta no site da API pelo site https://openweathermap.org/api , gere-a e coloque-a no campo "SUA API".
 
