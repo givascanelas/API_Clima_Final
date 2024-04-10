@@ -4,7 +4,7 @@ Este projeto consiste em uma consulta de dados meteorológicos utilizando a API 
 
 ### Requisitos:
 
-Para utilizar os dados climáticos, é necessário a instalação dos principais requisitos de sistema, para isso, abra o console de comandos:
+Para utilizar os dados climáticos, é necessário a instalação dos principais requisitos de sistema. Portanto, abra o console de comandos:
 
 1. Primeiro, para a instalação principal, utilize o comando `npm install`;
 
@@ -16,23 +16,23 @@ Para utilizar os dados climáticos, é necessário a instalação dos principais
 
 ### Configuração:
 
-Para começar a usar a API, siga os passos abaixo:
+Para começar a usar a API, siga os seguintes passos:
 
 1. Crie um arquivo chamado `config.json`;
 
 2. Dentro do arquivo `config.json`, adicione as seguintes informações:
    ```json
    {
-     "apikey": "SUA API"
+     "apikey": "[SUA API]"
    } 
 
-3. Crie uma conta no site da API pelo site https://openweathermap.org/api , gere-a e coloque-a no campo "SUA API".
+3. Crie uma conta no site da API pelo site https://openweathermap.org/api , gere-a e coloque-a no campo [SUA API].
 
 ## Complementos & Funções:
 
-* No arquivo App.js há a utilização do axios, para fazer requisições, do express, para criar o servidor e gerenciar suas rotas, e do cors, que permite que as solicitações de diferentes origens sejam feitas.
+* No arquivo "app.js" há a utilização do Axios, para fazer requisições, do Express, para criar o servidor e gerenciar suas rotas, e do CORS, que permite que as solicitações de diferentes origens sejam feitas.
 
-* A constante traducaoClima define as traduções predefinidas de cada clima para a resposta da API.
+* A constante "traducaoClima" define as traduções predefinidas de cada clima para a resposta da API.
 
 * O "app.get" faz requisições na API baseada na cidade em que o usuário solicita.
 
