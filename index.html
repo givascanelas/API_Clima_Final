@@ -50,8 +50,8 @@
         loader.style.display = "flex"; // <!-- Evento que utiliza o ícone de busca para pesquisar -->
 
 
-        const searchBox = document.querySelector(".search-box");
-        const cityInput = document.getElementById("search-txt").value;
+        const searchBox = document.querySelector(".search-box"); // <!-- Permite acessar e manipular o elemento HTML no JavaScript -->
+        const cityInput = document.getElementById("search-txt").value; // <!-- O valor da id "search-txt" é armazenado na variável "cityInput" -->
 
         try {
           const response = await fetch(`http://localhost:3000/climatempo/${cityInput}`); // <!-- Faz uma solicitação HTTP para a API de clima utiliznado a cidade fornecida -->
@@ -60,10 +60,10 @@
           document.getElementById("climaResult").style.display = "block"; // <!-- Exibe o resultado da busca -->
 
           const tempoResult = document.getElementById("climaResult");
-          const climaLowerCase = data.Clima.toLowerCase();
+          const climaLowerCase = data.Clima.toLowerCase(); // <!-- Isto converte o valor do clima do objeto data para letras minúsculas -->
 
-          let imagemSrc;
-          let fundoClimatico;
+          let imagemSrc; // <!-- Esta variável armazena o caminho da imagem correspondente ao clima -->
+          let fundoClimatico; // <!-- Esta variável determina o tipo de fundo climático com base no valor do clima -->
 
           if (climaLowerCase === "poucas nuvens") {
             imagemSrc = "./img/poucas_nuvens.png";
@@ -91,7 +91,7 @@
             imagemSrc = "./img/neve.png";
           } else {
             console.log("error");
-          }
+          } // <!-- Aqui, há uma imagem para cada clima -->
 
           if (climaLowerCase.includes("chuva") || climaLowerCase.includes("chuva moderada") || climaLowerCase.includes("chuva rapida") || climaLowerCase.includes("chuva leve") || climaLowerCase.includes("chuvisco intenso") || climaLowerCase.includes("tempestade")) {
             fundoClimatico = "Escuro";
